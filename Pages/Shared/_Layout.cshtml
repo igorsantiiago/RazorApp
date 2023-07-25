@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>@ViewData["Title"] - RazorApp</title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/RazorApp.styles.css" asp-append-version="true">
+</head>
+
+<body>
+    <header>
+        <partial name="Shared/NavMenuPartial" />
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>Balta.io</p>
+    </footer>
+
+    @RenderSection("scripts", false)
+</body>
+
+</html>

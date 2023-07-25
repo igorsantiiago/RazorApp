@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav,
+a:any-link {
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+}
+
+.nav a:hover {
+    color: cyan;
+    transition: .5s;
+    text-shadow: 1px -1px 3px rgba(0, 255, 255, 0.229)
+}
+
+table,
+thead,
+tr,
+td {
+    border: 1px #FFF solid;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
